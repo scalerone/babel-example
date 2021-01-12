@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx babel --plugins ./plugin.js index.js ",
+    "babel": "npx babel index.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,3 +1,6 @@
 {
-  "plugins": [ "./plugin" ]
+  "plugins": [ ["./plugin", {
+    "bad": "good",
+    "dead": "alive"
+  }] ]
 }
